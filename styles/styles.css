@@ -284,11 +284,46 @@ align-items: center;
         background-color: pink;
       }
           
+        /*INICIO DE BENEFITSTIPS*/
+
+        .img-candy-cream {
+         width: 400px;
+         padding: 10px;
+        }
+        .heladosv{
+          
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: space-around;
+          margin-left: 50px;
+          margin-top: 5px;
+          margin-right: 150px;
+
+        }
+        .candy1{
+          border: solid palevioletred;
+          display: flex;
+  justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+        }
         
+        .cream1{
+          border: solid palevioletred;
+margin: 30px 0px;
+          display: flex;
+  justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+        }
+        .ol-t{
         
-        
-        
-        
-        
-        
+          font-size: 25px;
+          margin-bottom: 10px;
+          color: #dd7e9b;
+        }
+        .lista1{
+          padding: 10px;
+        }
         
