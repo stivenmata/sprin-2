@@ -28,8 +28,14 @@ h2{
            width: 100%;
            
 }
- 
-  
+.enlaces a[href="#"]{
+  background-color: white;
+  color: #dd7e9b;
+}
+  a:hover{
+    background-color: white;
+  color: #dd7e9b;
+  }
   a{
       font-size: 14px;
       padding: 10px;
@@ -38,6 +44,7 @@ h2{
       background-color: pink;
       cursor: pointer;
       border-radius: 40px;
+      font-weight: bold;
       border: 2px solid rgb(95, 8, 37);
     box-shadow: 5px 5px 5px 0px black;
 }
