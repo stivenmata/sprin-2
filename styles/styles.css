@@ -71,7 +71,7 @@ h2{
 flex-direction: row-reverse;
       
 object-fit: cover;
-      height: 100px;
+      height: 20vh;
       
  }
  
@@ -84,7 +84,7 @@ object-fit: cover;
   .banner{
   object-fit: cover;
   width: 100%;
-  height: 420px;
+  height: 65vh;
   }
   
   .img3{
@@ -99,7 +99,7 @@ object-fit: cover;
       }
      
       .helado{
-width: 300px;
+width: 40%;
 
       }
   
@@ -124,13 +124,13 @@ width: 300px;
       justify-content: space-evenly;
       align-items: center;
       position: sticky;
-        margin: 10px 0px 0px 0px;
+        margin: 50px 0px 0px 0px;
       
           background-color: palevioletred;
       color: black;
       background-size:20px ;
       align-content: center;
-      height: 50px;
+      height: 8vh;
       
       }
 
@@ -141,7 +141,7 @@ width: 300px;
       .img{
         margin-top: 20px;
 
-        width: 200px;
+        width: 30vh;
       
     }
       
@@ -227,7 +227,7 @@ width: 300px;
        .banner2{
         
         width: 90%;
-        height: 250px;
+        height: 50vh;
     border: solid #dd7e9b;
     object-fit: cover;
     
@@ -311,8 +311,7 @@ display: flex;
             .table1{
               padding: 50px;
               justify-content: center;
-    width: 100%;
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -354,28 +353,33 @@ display: flex;
           align-items: flex-start;
           justify-content: space-around;
           flex-wrap: wrap;
-          margin-left: 50px;
+          /* margin-left: 50px; */
           margin-top: 5px;
          
 
         }
         .candy1{
-          border: solid palevioletred;
-          display: flex;
-  justify-content: space-between;
+      border: solid palevioletred;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 60px;
     border-radius: 30px;
+    /* flex-wrap: wrap; */
+    align-content: center
         }
         
         .cream1{
-          border: solid palevioletred;
-margin: 30px 0px;
-          display: flex;
-  justify-content: space-between;
+     border: solid palevioletred;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 60px;
     border-radius: 30px;
+    /* flex-wrap: wrap; */
+    align-content: center
         }
         .ol-t{
         
@@ -386,6 +390,11 @@ margin: 30px 0px;
         .lista1{
           padding: 10px;
         }
+        .lista2{
+        padding: 10px;
+        }
+
+
         /*INICIO DE RAFFLE*/
         
       .encabezado{
@@ -432,4 +441,77 @@ margin: 30px 0px;
       .location{
         font-size: 25px;
         margin: 10px 0;
+      }
+      /* INICIO DE RESPONSI */
+
+      @media screen and ( max-width: 768px) {
+        .enlaces{
+         
+           flex-direction: column;
+           }
+           
+           .header{
+      
+      flex-direction: column;
+    
+    
+    }
+          .banner{
+
+  height: 30vh;
+  }
+           .banner2{
+        height: 30vh;
+       }
+    
+    
+        
+        
+.contacto1{
+    flex-direction: column-reverse;
+    align-items: center;
+          }
+   
+    .contenedor{
+    min-height: 0%;
+    }
+
+    .candy1{
+      
+    margin-left: 0;
+    
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    align-content: center
+        }
+        
+        .cream1{
+     
+    margin-left: 0;
+    
+    justify-content: center;
+    align-items: center;
+   
+    flex-wrap: wrap;
+    align-content: center
+        }
+        .lista1{
+          align-items: center;
+    display: flex;
+    flex-direction: column;
+        }
+            .lista2{
+              align-items: center;
+ display: flex;
+    flex-direction: column;
+            }
+    
+.contec{
+  flex-direction: column-reverse;
+}
+
+
+
       }
